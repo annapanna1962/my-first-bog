@@ -25,7 +25,7 @@ SECRET_KEY = 'h_exc-iu!2n3lbva=n#wqooy(!o1xrny9fa23fq=vw75ix8m*m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['annapanna1962.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
